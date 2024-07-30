@@ -1,0 +1,6 @@
+@RMeeting.Api_HostAddress = http://localhost:5259
+
+GET {{RMeeting.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

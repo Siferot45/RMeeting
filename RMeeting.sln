@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMeeting.Storage", "RMeeting.Storage\RMeeting.Storage.csproj", "{1D19B489-5C68-46E4-832B-F56FF76AD681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMeeting.Storage", "RMeeting.Storage\RMeeting.Storage.csproj", "{1D19B489-5C68-46E4-832B-F56FF76AD681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMeeting.Api", "RMeeting.Api\RMeeting.Api.csproj", "{B8E2BF9B-2430-4DA3-8567-C88AE4BA4097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMeeting.Storage.DependencyInjection", "RMeeting.Storage.DependencyInjection\RMeeting.Storage.DependencyInjection.csproj", "{72BA53A0-6053-4EEF-9402-DD6B2026D8EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1D19B489-5C68-46E4-832B-F56FF76AD681}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D19B489-5C68-46E4-832B-F56FF76AD681}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D19B489-5C68-46E4-832B-F56FF76AD681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E2BF9B-2430-4DA3-8567-C88AE4BA4097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E2BF9B-2430-4DA3-8567-C88AE4BA4097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E2BF9B-2430-4DA3-8567-C88AE4BA4097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E2BF9B-2430-4DA3-8567-C88AE4BA4097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BA53A0-6053-4EEF-9402-DD6B2026D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BA53A0-6053-4EEF-9402-DD6B2026D8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BA53A0-6053-4EEF-9402-DD6B2026D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BA53A0-6053-4EEF-9402-DD6B2026D8EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
