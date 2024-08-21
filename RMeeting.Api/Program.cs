@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using RMeeting.Storage.Context;
 using RMeeting.Storage.DependencyInjection;
+using RMeeting.Domain.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddForumDomain();
 builder.Services.AddRMeetingStorage(builder.Configuration.GetConnectionString("postgreDb"));
 
 var app = builder.Build();

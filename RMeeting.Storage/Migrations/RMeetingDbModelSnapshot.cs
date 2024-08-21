@@ -183,10 +183,6 @@ namespace RMeeting.Storage.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_at");
 
-                    b.Property<int>("Reaction")
-                        .HasColumnType("integer")
-                        .HasColumnName("reaction");
-
                     b.Property<Guid>("SectionId")
                         .HasColumnType("uuid")
                         .HasColumnName("section_id");

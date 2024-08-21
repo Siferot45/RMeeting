@@ -9,8 +9,6 @@ public class Topic
     [MaxLength(200)]
     public string Title { get; set; }
 
-    public int Reaction { get; set; }
-
     public DateTimeOffset CreatedAt { get; set; }
     public DateTimeOffset? UpdateAt { get; set; }
 

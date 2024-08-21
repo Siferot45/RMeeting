@@ -9,5 +9,5 @@ public class Forum
     [MaxLength(50)]
     public string Title { get; set; }
 
-    public IEnumerable<Section> Sections { get; set; }
+    public IEnumerable<Section>? Sections { get; set; }
 }

@@ -12,8 +12,8 @@ using RMeeting.Storage.Context;
 namespace RMeeting.Storage.Migrations
 {
     [DbContext(typeof(RMeetingDb))]
-    [Migration("20240730111812_init")]
-    partial class init
+    [Migration("20240821104013_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -185,10 +185,6 @@ namespace RMeeting.Storage.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_at");
-
-                    b.Property<int>("Reaction")
-                        .HasColumnType("integer")
-                        .HasColumnName("reaction");
 
                     b.Property<Guid>("SectionId")
                         .HasColumnType("uuid")
